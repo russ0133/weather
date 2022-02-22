@@ -8,9 +8,9 @@
   </head>
   <body class="h-screen">
     <div class="bg-white h-screen w-full">
-      <div class="flex justify-center bg-slate-500 h-1/7">
+      <div class="flex justify-center bg-slate-400 h-1/7">
         <form
-          class="flex max-w-screen-md flex-row m-3 py-1 px-3 bg-slate-100 justify-center gap-2 items-center rounded-md"
+          class="flex max-w-screen-md flex-row m-3 bg-slate-100 justify-center gap-2 items-center rounded-xl"
           id="cityForm"
         >
           <input
@@ -21,13 +21,18 @@
             onblur="this.value=''"
             class="bg-slate-100 w-full py-2 px-3 rounded-lg focus:outline-none"
           />
-          <button>GO</button>
+          <button
+            class="bg-red-700 h-full px-2 rounded-r-lg text-yellow-50 hover:bg-red-900"
+          >
+            GO
+          </button>
         </form>
       </div>
 
       <div class="flex flex-col justify-center items-center">
-        <div id="result">1</div>
-        <div>2</div>
+        <div id="city-name">City Name</div>
+        <div>PICTURE</div>
+        <div id="result">Result</div>
       </div>
 
       <footer>by Gabriel Dantas.</footer>

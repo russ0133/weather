@@ -22,8 +22,7 @@ export async function get(location) {
     const weatherData = parseJsonWeatherData(fetchData);
     console.log(weatherData.weatherid);
     updateBackgroundColorBasedOnClimate(weatherData.weatherid);
-    let test = `Agora em ${weatherData.name}/${weatherData.country} a temperatura é ${weatherData.temp} graus. O clima atual é: ${weatherData.weatherDescription}.`;
-    return test;
+    return weatherData;
   } catch (err) {
     console.error(err);
   }
