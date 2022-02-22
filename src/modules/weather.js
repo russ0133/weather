@@ -14,7 +14,7 @@ export async function get(location) {
       location +
       "&APPID=" +
       API_KEY +
-      "&units=metric&lang=pt_br";
+      "&units=metric";
     const fetchAPI = await fetch(fetchString, { mode: "cors" });
     const fetchData = await fetchAPI.json();
     if (fetchData.cod == "400") throw `HTTP: ${fetchData.cod} - Invalid input.`;

@@ -7,7 +7,7 @@
     <title>Your Weather</title>
   </head>
   <body class="h-screen">
-    <div class="bg-white h-screen w-full">
+    <div class="bg-slate-200 w-full justify-between">
       <div class="flex justify-center bg-slate-400 h-1/7">
         <form
           class="flex max-w-screen-md flex-row m-3 bg-slate-100 justify-center gap-2 items-center rounded-xl"
@@ -29,13 +29,25 @@
         </form>
       </div>
 
-      <div class="flex flex-col justify-center items-center">
-        <div id="city-name">City Name</div>
-        <div>PICTURE</div>
-        <div id="result">Result</div>
+      <div class="flex flex-col justify-center items-center mb-auto">
+        <div
+          id="city-name"
+          class="bg-slate-500 mt-5 mb-1 py-2 px-4 text-3xl shadow-md shadow-slate-300 text-white max-w-screen-lg text-center rounded-md"
+        >
+          City Name
+        </div>
+        <img
+          src="#"
+          alt=""
+          class="rounded-none sm:rounded-3xl border-4 shadow-md"
+        />
+        <div id="result" class="mt-2 mb-6">Result</div>
       </div>
-
-      <footer>by Gabriel Dantas.</footer>
+      <footer
+        class="bg-slate-400 text-white text-center inset-x-0 bottom-0 p-2"
+      >
+        by Gabriel Dantas - github.com/russ0133 - gabrieldsfs@gmail.com
+      </footer>
       <script src="bundle.js"></script>
     </div>
   </body>
