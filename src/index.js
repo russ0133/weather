@@ -1,4 +1,4 @@
-import "./css/style.css";
+import "./style.css";
 import * as weather from "./modules/weather";
 
 weather.get("london").then((data) => {
