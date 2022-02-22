@@ -10,7 +10,7 @@ const body = document.querySelector("body");
 export async function get(location) {
   try {
     let fetchString =
-      "http://api.openweathermap.org/data/2.5/weather?q=" +
+      "https://api.openweathermap.org/data/2.5/weather?q=" +
       location +
       "&APPID=" +
       API_KEY +
