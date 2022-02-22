@@ -19,10 +19,10 @@
     "url": "https://github.com/russ0133/weather/issues"
   },
   "homepage": "https://github.com/russ0133/weather#readme",
-  "dependencies": {},
   "devDependencies": {
-    "lodash": "^4.17.21",
     "css-loader": "^6.6.0",
+    "eslint": "^8.9.0",
+    "lodash": "^4.17.21",
     "node-sass": "^7.0.1",
     "sass-loader": "^12.6.0",
     "style-loader": "^3.3.1",
