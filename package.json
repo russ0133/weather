@@ -389,7 +389,10 @@
     "babel-loader": "^8.2.3",
     "babel-polyfill": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
-    "babel-preset-stage-0": "^6.24.1"
+    "babel-preset-stage-0": "^6.24.1",
+    "esbuild": "^0.14.23",
+    "prettier": "2.5.1",
+    "ts-loader": "^9.2.6"
   },
   "scripts": {
     "start": "webpack serve --mode=development --open",
